@@ -1,0 +1,17 @@
+From cb24b6dcef6fa570b53a150c61d59ccc0f118197 Mon Sep 17 00:00:00 2001
+From: Peter Hanping Chen <peter.hp.chen@gmail.com>
+Date: Sat, 4 Jun 2022 16:50:03 -0700
+Subject: [PATCH] add todo2.txt
+
+---
+ todo1.txt => todo2.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ rename todo1.txt => todo2.txt (100%)
+
+diff --git a/todo1.txt b/todo2.txt
+similarity index 100%
+rename from todo1.txt
+rename to todo2.txt
+-- 
+2.34.1.windows.1
+
