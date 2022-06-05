@@ -1,17 +1,77 @@
-From cb24b6dcef6fa570b53a150c61d59ccc0f118197 Mon Sep 17 00:00:00 2001
+From 8b40f2e96dc29bffd28381d0fb9190b464205f2f Mon Sep 17 00:00:00 2001
 From: Peter Hanping Chen <peter.hp.chen@gmail.com>
-Date: Sat, 4 Jun 2022 16:50:03 -0700
+Date: Sat, 4 Jun 2022 16:59:04 -0700
 Subject: [PATCH] add todo2.txt
 
 ---
- todo1.txt => todo2.txt | 0
- 1 file changed, 0 insertions(+), 0 deletions(-)
- rename todo1.txt => todo2.txt (100%)
+ .todo2.txt.un~           | Bin 0 -> 519 bytes
+ 0001-add-todo2.txt.patch |  17 +++++++++++++++++
+ todo2.txt                |   1 +
+ todo2.txt~               |   9 +++++++++
+ 4 files changed, 27 insertions(+)
+ create mode 100644 .todo2.txt.un~
+ create mode 100644 0001-add-todo2.txt.patch
+ create mode 100644 todo2.txt~
 
-diff --git a/todo1.txt b/todo2.txt
-similarity index 100%
-rename from todo1.txt
-rename to todo2.txt
+diff --git a/.todo2.txt.un~ b/.todo2.txt.un~
+new file mode 100644
+index 0000000000000000000000000000000000000000..52b2cf9e0ad693e1792be1d9dbc4359304155f66
+GIT binary patch
+literal 519
+zcmWH`%$*;a=aT=FfoVd@^3W<h^=Iq0a?Z+U(TP=G9VX?G*0Z%zG5O>Vfj71c3=CXA
+zj0_lo91sQp7#qw_n*DJV3q&OT0z@8#1W9qiME(N-+!&bPC{4u>07l13Xmos)0GbOA
+MdXOEajn7vB0Nqs|)c^nh
+
+literal 0
+HcmV?d00001
+
+diff --git a/0001-add-todo2.txt.patch b/0001-add-todo2.txt.patch
+new file mode 100644
+index 0000000..d9dbf02
+--- /dev/null
++++ b/0001-add-todo2.txt.patch
+@@ -0,0 +1,17 @@
++From cb24b6dcef6fa570b53a150c61d59ccc0f118197 Mon Sep 17 00:00:00 2001
++From: Peter Hanping Chen <peter.hp.chen@gmail.com>
++Date: Sat, 4 Jun 2022 16:50:03 -0700
++Subject: [PATCH] add todo2.txt
++
++---
++ todo1.txt => todo2.txt | 0
++ 1 file changed, 0 insertions(+), 0 deletions(-)
++ rename todo1.txt => todo2.txt (100%)
++
++diff --git a/todo1.txt b/todo2.txt
++similarity index 100%
++rename from todo1.txt
++rename to todo2.txt
++-- 
++2.34.1.windows.1
++
+diff --git a/todo2.txt b/todo2.txt
+index efe0181..a88fa22 100644
+--- a/todo2.txt
++++ b/todo2.txt
+@@ -7,3 +7,4 @@ todo List:
+ 5. Check Roof installtion
+ 6. Check Restroom Remodel.
+ 7. Check Windows Installation.
++
+diff --git a/todo2.txt~ b/todo2.txt~
+new file mode 100644
+index 0000000..efe0181
+--- /dev/null
++++ b/todo2.txt~
+@@ -0,0 +1,9 @@
++todo List:
++
++1. Write the document
++2. Implement the code
++3. Study information
++4. Visit Joint Chirapractic.
++5. Check Roof installtion
++6. Check Restroom Remodel.
++7. Check Windows Installation.
 -- 
 2.34.1.windows.1
 
